@@ -4,7 +4,6 @@ title: 函数式接口和Lambda表达式
 description: 函数式接口和Lambda表达式 
 category: blog
 ---
-# 函数式接口和Lambda表达式 #
 
 相信每个Java开发者对下面的接口都不会陌生：`java.lang.Runnable, java.awt.event.ActionListener, java.util.Comparator, java.util.concurrent.Callable. `，这些接口有个特点就是接口内只声明了一个方法，所以这样的接口也被称为SAM接口（**S**ingle **A**bstract **M**ethod interfaces）。使用这种接口普遍的方式是通过匿名内部类，比如：
 
