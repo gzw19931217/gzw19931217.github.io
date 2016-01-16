@@ -4,7 +4,6 @@ title: 函数式接口和Lambda表达式
 description: 函数式接口和Lambda表达式 
 category: blog
 ---
-# 函数式接口和Lambda表达式 #
 
 相信每个Java开发者对下面的接口都不会陌生：`java.lang.Runnable, java.awt.event.ActionListener, java.util.Comparator, java.util.concurrent.Callable. `，这些接口有个特点就是接口内只声明了一个方法，所以这样的接口也被称为SAM接口（**S**ingle **A**bstract **M**ethod interfaces）。使用这种接口普遍的方式是通过匿名内部类，比如：
 
@@ -84,3 +83,26 @@ Lambda表达式由参数列表、表达式、语句块三个部分组成，如
 
 在使用IDE的时候，可以用Lambda表达式代替的时候IDE会给我们提示
 ![](http://7xprht.com1.z0.glb.clouddn.com/lambdaQQ%E6%88%AA%E5%9B%BE20160108111827.png)
+
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//gzw19931217.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
