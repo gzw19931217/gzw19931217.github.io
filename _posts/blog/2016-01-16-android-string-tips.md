@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Android开发中发现的一些小技巧 —— 字符串相关
-description: Android
-开发中发现的一些小技巧 —— 字符串相关
+description: Android开发中发现的一些小技巧 —— 字符串相关
 category: blog
 ---
 # Android开发中发现的一些小技巧 —— 字符串相关
